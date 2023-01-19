@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+  <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_home"
+        android:title="@string/history" />
+
+    <item
+
+        android:id="@+id/nav_switch"
+        android:title="@string/dark_theme"
+        android:icon="@drawable/ic_user"
+        app:actionViewClass="android.widget.Switch"/>
+
+    <item android:title="@string/profile" >
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_user"
+                android:title="@string/my_profile" />
+
+            <item
+                android:id="@+id/nav_subscription"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/subscription" />
+            <item
+                android:id="@+id/nav_reset_password"
+                android:icon="@drawable/ic_lock"
+                android:title="@string/reset_password" />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
