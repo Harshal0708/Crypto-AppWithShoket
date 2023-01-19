@@ -16,17 +16,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
-import com.strings.airqualityvisualizer.Response.DataXX
-import com.strings.airqualityvisualizer.modual.dashbord.HistoryFragment
-import com.strings.airqualityvisualizer.modual.dashbord.HomeFragment
-import com.strings.airqualityvisualizer.modual.dashbord.SettingFragment
-import com.strings.airqualityvisualizer.modual.login.LoginActivity
-import com.strings.airqualityvisualizer.modual.login.ResetPasswordActivity
-import com.strings.airqualityvisualizer.modual.subscription.SubscriptionActivity
+import com.strings.cryptoapp.Response.DataXX
+import com.strings.cryptoapp.modual.dashbord.HistoryFragment
+import com.strings.cryptoapp.modual.dashbord.HomeFragment
+import com.strings.cryptoapp.modual.dashbord.SettingFragment
+import com.strings.cryptoapp.modual.login.LoginActivity
+import com.strings.cryptoapp.modual.login.ResetPasswordActivity
+import com.strings.cryptoapp.modual.subscription.SubscriptionActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import com.google.gson.Gson
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.preferences.MyPreferences
 
 
 class MainActivity : AppCompatActivity() {

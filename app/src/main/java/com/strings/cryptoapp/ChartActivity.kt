@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
-import com.strings.airqualityvisualizer.ui.airqualitymain.AirQualityMainViewModel
-import com.strings.airqualityvisualizer.ui.airqualitymain.ChartViewModel
+import com.strings.cryptoapp.domain.model.AirQualityData
+import com.strings.cryptoapp.ui.airqualitymain.AirQualityMainViewModel
+import com.strings.cryptoapp.ui.airqualitymain.ChartViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
 import kotlinx.coroutines.flow.collectLatest

@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.ViewPager
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.modual.history.HistoryViewPagerAdapter
-import com.strings.airqualityvisualizer.modual.history.OrderFragment
-import com.strings.airqualityvisualizer.modual.history.SubscriptionFragment
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.modual.history.HistoryViewPagerAdapter
+import com.strings.cryptoapp.modual.history.OrderFragment
+import com.strings.cryptoapp.modual.history.SubscriptionFragment
 import com.google.android.material.tabs.TabLayout
 
 

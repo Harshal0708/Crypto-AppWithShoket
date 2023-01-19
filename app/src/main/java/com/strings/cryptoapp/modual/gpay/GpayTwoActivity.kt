@@ -3,8 +3,8 @@ package com.strings.cryptoapp.modual.gpay
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.R
 import com.stripe.android.PaymentConfiguration
 import com.stripe.android.core.networking.AnalyticsFields.PUBLISHABLE_KEY
 import com.stripe.android.googlepaylauncher.GooglePayEnvironment

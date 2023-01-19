@@ -12,13 +12,13 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.View.*
 import android.widget.*
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.LoginResponse
-import com.strings.airqualityvisualizer.model.LoginPayload
-import com.strings.airqualityvisualizer.network.RestApi
-import com.strings.airqualityvisualizer.network.ServiceBuilder
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.LoginResponse
+import com.strings.cryptoapp.model.LoginPayload
+import com.strings.cryptoapp.network.RestApi
+import com.strings.cryptoapp.network.ServiceBuilder
+import com.strings.cryptoapp.preferences.MyPreferences
 import com.google.gson.Gson
 import java.util.regex.Pattern
 

@@ -11,14 +11,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.DataXX
-import com.strings.airqualityvisualizer.modual.login.LoginActivity
-import com.strings.airqualityvisualizer.modual.login.ProfileActivity
-import com.strings.airqualityvisualizer.modual.login.ResetPasswordActivity
-import com.strings.airqualityvisualizer.modual.subscription.SubscriptionActivity
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.DataXX
+import com.strings.cryptoapp.modual.login.LoginActivity
+import com.strings.cryptoapp.modual.login.ProfileActivity
+import com.strings.cryptoapp.modual.login.ResetPasswordActivity
+import com.strings.cryptoapp.modual.subscription.SubscriptionActivity
+import com.strings.cryptoapp.preferences.MyPreferences
 import com.google.gson.Gson
 
 

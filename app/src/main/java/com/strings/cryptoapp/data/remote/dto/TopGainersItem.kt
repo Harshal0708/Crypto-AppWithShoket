@@ -1,7 +1,7 @@
 package com.strings.cryptoapp.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
+import com.strings.cryptoapp.domain.model.AirQualityData
 import kotlinx.serialization.Serializable
 
 @Serializable

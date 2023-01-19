@@ -1,10 +1,10 @@
 package com.strings.cryptoapp.network
 
 import android.content.Context
-import com.strings.airqualityvisualizer.Constants
-import com.strings.airqualityvisualizer.MainActivity
-import com.strings.airqualityvisualizer.modual.login.LoginActivity
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.Constants
+import com.strings.cryptoapp.MainActivity
+import com.strings.cryptoapp.modual.login.LoginActivity
+import com.strings.cryptoapp.preferences.MyPreferences
 import okhttp3.Authenticator
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

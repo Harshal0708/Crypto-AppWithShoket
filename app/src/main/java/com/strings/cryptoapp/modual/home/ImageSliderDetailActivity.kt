@@ -2,15 +2,15 @@ package com.strings.cryptoapp.modual.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.Response.CmsAdsAddResponse
-import com.strings.airqualityvisualizer.Response.DataXX
-import com.strings.airqualityvisualizer.model.CmsAdsAddPayload
-import com.strings.airqualityvisualizer.network.RestApi
-import com.strings.airqualityvisualizer.network.ServiceBuilder
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.Response.CmsAdsAddResponse
+import com.strings.cryptoapp.Response.DataXX
+import com.strings.cryptoapp.model.CmsAdsAddPayload
+import com.strings.cryptoapp.network.RestApi
+import com.strings.cryptoapp.network.ServiceBuilder
+import com.strings.cryptoapp.preferences.MyPreferences
 import com.google.gson.Gson
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -14,7 +14,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.strings.airqualityvisualizer"
+        applicationId "com.strings.cryptoapp"
         minSdk 23
         targetSdk 33
         versionCode 1

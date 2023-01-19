@@ -1,4 +1,4 @@
-package com.strings.airqualityvisualizer
+package com.strings.cryptoapp
 
 import org.junit.Test
 

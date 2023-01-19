@@ -2,7 +2,7 @@ package com.strings.cryptoapp.chart
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.BarData

@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.UserSubscriptionDataResponse
-import com.strings.airqualityvisualizer.modual.subscription.SubscriptionDetailActivity
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.UserSubscriptionDataResponse
+import com.strings.cryptoapp.modual.subscription.SubscriptionDetailActivity
 
 class SubscriptionAdapter (val context: Context, var subscriptionModelList: List<UserSubscriptionDataResponse>, var planId:String) :
     RecyclerView.Adapter<SubscriptionAdapter.ViewHolder>() {

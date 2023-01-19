@@ -4,14 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.strings.airqualityvisualizer.MainActivity
-import com.strings.airqualityvisualizer.R
-//import com.strings.airqualityvisualizer.databinding.ActivityUserBinding
-import com.strings.airqualityvisualizer.modual.login.adapter.ViewPagerAdapter
-import com.strings.airqualityvisualizer.modual.login.adapter.ZoomOutPageTransformer
-import com.strings.airqualityvisualizer.modual.login.fragment.DocumentFragment
-import com.strings.airqualityvisualizer.modual.login.fragment.ScriptFragment
-import com.strings.airqualityvisualizer.modual.login.fragment.UserFragment
+import com.strings.cryptoapp.MainActivity
+import com.strings.cryptoapp.R
+//import com.strings.cryptoapp.databinding.ActivityUserBinding
+import com.strings.cryptoapp.modual.login.adapter.ViewPagerAdapter
+import com.strings.cryptoapp.modual.login.adapter.ZoomOutPageTransformer
+import com.strings.cryptoapp.modual.login.fragment.DocumentFragment
+import com.strings.cryptoapp.modual.login.fragment.ScriptFragment
+import com.strings.cryptoapp.modual.login.fragment.UserFragment
 
 
 class UserActivity : AppCompatActivity(), View.OnClickListener {

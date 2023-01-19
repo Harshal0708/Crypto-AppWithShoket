@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.strings.airqualityvisualizer.modual.login.fragment.DocumentFragment
-import com.strings.airqualityvisualizer.modual.login.fragment.ScriptFragment
-import com.strings.airqualityvisualizer.modual.login.fragment.UserFragment
+import com.strings.cryptoapp.modual.login.fragment.DocumentFragment
+import com.strings.cryptoapp.modual.login.fragment.ScriptFragment
+import com.strings.cryptoapp.modual.login.fragment.UserFragment
 import java.lang.reflect.Array.newInstance
 
 

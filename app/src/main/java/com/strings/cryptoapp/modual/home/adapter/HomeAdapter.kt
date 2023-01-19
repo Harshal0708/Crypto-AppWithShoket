@@ -12,9 +12,9 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.StrategyRes
-import com.strings.airqualityvisualizer.modual.home.HomeDetailActivity
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.StrategyRes
+import com.strings.cryptoapp.modual.home.HomeDetailActivity
 
 class HomeAdapter(var context: Context, var strategyResList: StrategyRes) :
     RecyclerView.Adapter<HomeAdapter.ViewHolder>() {

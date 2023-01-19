@@ -3,11 +3,12 @@ package com.strings.cryptoapp.chart
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
+
 
 class BarChartActivity : AppCompatActivity() {
 

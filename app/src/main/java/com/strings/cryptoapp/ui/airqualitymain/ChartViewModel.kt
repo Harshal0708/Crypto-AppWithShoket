@@ -4,9 +4,9 @@ import android.util.Log
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.strings.airqualityvisualizer.data.remote.AirQualitySocketService
-import com.strings.airqualityvisualizer.data.remote.ConnectionState
-import com.strings.airqualityvisualizer.domain.model.AirQualityDataState
+import com.strings.cryptoapp.data.remote.AirQualitySocketService
+import com.strings.cryptoapp.data.remote.ConnectionState
+import com.strings.cryptoapp.domain.model.AirQualityDataState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*

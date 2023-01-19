@@ -1,14 +1,14 @@
 package com.strings.cryptoapp.network
 
-import com.strings.airqualityvisualizer.Constants
-import com.strings.airqualityvisualizer.Response.*
-import com.strings.airqualityvisualizer.model.*
-import com.strings.airqualityvisualizer.modual.card.CardPaymentIntentResponse
-import com.strings.airqualityvisualizer.modual.payment.CreateCustomerIdResponse
-import com.strings.airqualityvisualizer.modual.payment.EphemeralKeyResponse
-import com.strings.airqualityvisualizer.modual.payment.PaymentIntentRespomse
-import com.strings.airqualityvisualizer.modual.payment.StripeConfirmationResponse
-import com.strings.airqualityvisualizer.modual.payment.createcustomer.CreateCustomerResponse
+import com.strings.cryptoapp.Constants
+import com.strings.cryptoapp.Response.*
+import com.strings.cryptoapp.model.*
+import com.strings.cryptoapp.modual.card.CardPaymentIntentResponse
+import com.strings.cryptoapp.modual.payment.CreateCustomerIdResponse
+import com.strings.cryptoapp.modual.payment.EphemeralKeyResponse
+import com.strings.cryptoapp.modual.payment.PaymentIntentRespomse
+import com.strings.cryptoapp.modual.payment.StripeConfirmationResponse
+import com.strings.cryptoapp.modual.payment.createcustomer.CreateCustomerResponse
 import retrofit2.Call
 import retrofit2.Response
 import retrofit2.http.*

@@ -1,7 +1,7 @@
 package com.strings.cryptoapp.data.remote
 
-import com.strings.airqualityvisualizer.data.remote.dto.TopGainersItem
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
+import com.strings.cryptoapp.data.remote.dto.TopGainersItem
+import com.strings.cryptoapp.domain.model.AirQualityData
 import kotlinx.coroutines.flow.Flow
 
 
