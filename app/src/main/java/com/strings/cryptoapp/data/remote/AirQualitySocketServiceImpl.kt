@@ -2,8 +2,8 @@ package com.strings.cryptoapp.data.remote
 
 import android.util.Log
 import com.google.gson.Gson
-import com.strings.airqualityvisualizer.data.remote.dto.TopGainersItem
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
+import com.strings.cryptoapp.data.remote.dto.TopGainersItem
+import com.strings.cryptoapp.domain.model.AirQualityData
 import io.ktor.client.*
 import io.ktor.client.plugins.json.serializer.*
 import io.ktor.client.plugins.websocket.*
@@ -48,6 +48,9 @@ class AirQualitySocketServiceImpl(
                     val gson = Gson()
                     val objectList = gson.fromJson(json, Array<TopGainersItem>::class.java).asList()
 //                    val listAirQualityDataDto = Json.decodeFromString<List<TopGainersItem>>(json)
+
+//                    objectList.
+
                     objectList.map { dto ->
                         dto.toAirQualityData()
                     }

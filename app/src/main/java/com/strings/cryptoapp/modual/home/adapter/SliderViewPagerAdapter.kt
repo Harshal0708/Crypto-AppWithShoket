@@ -9,10 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.viewpager.widget.PagerAdapter
-import com.strings.airqualityvisualizer.Constants.Companion.showLog
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.CmsAdsListResponseData
-import com.strings.airqualityvisualizer.modual.home.ImageSliderDetailActivity
+import com.strings.cryptoapp.Constants.Companion.showLog
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.CmsAdsListResponseData
+import com.strings.cryptoapp.modual.home.ImageSliderDetailActivity
 import java.util.*
 
 class SliderViewPagerAdapter (val context: Context, val imageList: List<CmsAdsListResponseData>) : PagerAdapter() {

@@ -3,7 +3,7 @@ package com.strings.cryptoapp.chart
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.data.PieData
 import com.github.mikephil.charting.data.PieDataSet

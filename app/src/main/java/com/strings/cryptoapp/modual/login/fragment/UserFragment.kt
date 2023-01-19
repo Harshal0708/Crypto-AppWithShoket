@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import java.util.regex.Pattern
 
 class UserFragment : Fragment() {

@@ -1,6 +1,6 @@
 package com.strings.cryptoapp.modual.card
 
-import com.strings.airqualityvisualizer.Constants
+import com.strings.cryptoapp.Constants
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.RequestBody.Companion.toRequestBody

@@ -2,8 +2,8 @@ package com.strings.cryptoapp.modual.subscription
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.modual.login.fragment.ScriptFragment
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.modual.login.fragment.ScriptFragment
 
 class SubscriptionActivity : AppCompatActivity() {
 

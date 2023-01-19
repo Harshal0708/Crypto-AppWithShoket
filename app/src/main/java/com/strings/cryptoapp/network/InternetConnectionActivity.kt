@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.lifecycle.Observer
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 
 class InternetConnectionActivity : AppCompatActivity() {
 

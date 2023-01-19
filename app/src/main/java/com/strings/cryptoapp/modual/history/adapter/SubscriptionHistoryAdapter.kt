@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.UserSubscription
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.UserSubscription
 
 class SubscriptionHistoryAdapter(var context: Context,val userSubscriptions: List<UserSubscription>) : RecyclerView.Adapter<SubscriptionHistoryAdapter.ViewHolder>() {
     class ViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {

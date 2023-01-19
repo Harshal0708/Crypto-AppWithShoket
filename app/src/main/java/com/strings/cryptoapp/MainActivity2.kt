@@ -7,10 +7,10 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
-import com.strings.airqualityvisualizer.data.adapter.AirListClickListener
-import com.strings.airqualityvisualizer.data.adapter.AirQualityAdapter
-import com.strings.airqualityvisualizer.databinding.ActivityMain2Binding
-import com.strings.airqualityvisualizer.ui.airqualitymain.AirQualityMainViewModel
+import com.strings.cryptoapp.data.adapter.AirListClickListener
+import com.strings.cryptoapp.data.adapter.AirQualityAdapter
+import com.strings.cryptoapp.databinding.ActivityMain2Binding
+import com.strings.cryptoapp.ui.airqualitymain.AirQualityMainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -48,11 +48,7 @@ class MainActivity2 : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-
         binding.lifecycleOwner = this
-
-
-
     }
 
     override fun onStart() {

@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.OrderHistory
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.OrderHistory
 
 class OrderHistoryAdapter(var context: Context,  val orderHistories: List<OrderHistory>) : RecyclerView.Adapter<OrderHistoryAdapter.ViewHolder>() {
     class ViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {

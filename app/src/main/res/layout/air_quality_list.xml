@@ -6,10 +6,10 @@
     <data>
         <variable
             name="airData"
-            type="com.strings.airqualityvisualizer.domain.model.AirQualityData" />
+            type="com.strings.cryptoapp.domain.model.AirQualityData" />
         <variable
             name="clickListener"
-            type="com.strings.airqualityvisualizer.data.adapter.AirListClickListener" />
+            type="com.strings.cryptoapp.data.adapter.AirListClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -7,10 +7,10 @@ import android.os.Handler
 import android.view.WindowManager
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.modual.login.LoginActivity
-import com.strings.airqualityvisualizer.modual.login.UserActivity
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.modual.login.LoginActivity
+import com.strings.cryptoapp.modual.login.UserActivity
+import com.strings.cryptoapp.preferences.MyPreferences
 
 class SplashActivity : AppCompatActivity() {
 

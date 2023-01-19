@@ -1,7 +1,7 @@
 package com.strings.cryptoapp.di
 
-import com.strings.airqualityvisualizer.data.remote.AirQualitySocketService
-import com.strings.airqualityvisualizer.data.remote.AirQualitySocketServiceImpl
+import com.strings.cryptoapp.data.remote.AirQualitySocketService
+import com.strings.cryptoapp.data.remote.AirQualitySocketServiceImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -11,11 +11,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.modual.home.adapter.HomeAdapter
-import com.strings.airqualityvisualizer.network.RestApi
-import com.strings.airqualityvisualizer.network.ServiceBuilder
-import com.strings.airqualityvisualizer.network.onItemClickListener
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.modual.home.adapter.HomeAdapter
+import com.strings.cryptoapp.network.RestApi
+import com.strings.cryptoapp.network.ServiceBuilder
+import com.strings.cryptoapp.network.onItemClickListener
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

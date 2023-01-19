@@ -7,13 +7,13 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.*
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.ResetResponse
-import com.strings.airqualityvisualizer.model.ResetPayload
-import com.strings.airqualityvisualizer.network.RestApi
-import com.strings.airqualityvisualizer.network.ServiceBuilder
-import com.strings.airqualityvisualizer.preferences.MyPreferences
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.ResetResponse
+import com.strings.cryptoapp.model.ResetPayload
+import com.strings.cryptoapp.network.RestApi
+import com.strings.cryptoapp.network.ServiceBuilder
+import com.strings.cryptoapp.preferences.MyPreferences
 import retrofit2.Call
 import java.util.regex.Pattern
 

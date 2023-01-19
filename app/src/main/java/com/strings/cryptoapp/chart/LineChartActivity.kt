@@ -3,7 +3,7 @@ package com.strings.cryptoapp.chart
 import android.graphics.Color.green
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.charts.LineChart

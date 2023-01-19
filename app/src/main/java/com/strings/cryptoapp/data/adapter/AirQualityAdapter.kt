@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.core.content.res.TypedArrayUtils
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.databinding.AirQualityListBinding
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.databinding.AirQualityListBinding
+import com.strings.cryptoapp.domain.model.AirQualityData
 
 class AirQualityAdapter(private val clickListener : AirListClickListener) : ListAdapter<AirQualityData,RecyclerView.ViewHolder>(AirQualityDiffCallBack()){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {

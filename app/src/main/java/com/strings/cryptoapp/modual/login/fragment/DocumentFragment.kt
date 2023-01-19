@@ -12,7 +12,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import java.util.regex.Pattern
 
 

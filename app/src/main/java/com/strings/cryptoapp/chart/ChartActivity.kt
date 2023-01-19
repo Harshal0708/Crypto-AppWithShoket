@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.chart.PieActivity
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.chart.PieActivity
 
 class ChartActivity : AppCompatActivity(), View.OnClickListener {
 

@@ -12,7 +12,7 @@ import android.view.MenuItem
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.strings.airqualityvisualizer.R
+import com.strings.cryptoapp.R
 import com.github.mikephil.charting.charts.CandleStickChart
 import com.github.mikephil.charting.components.XAxis.XAxisPosition
 import com.github.mikephil.charting.components.YAxis.AxisDependency

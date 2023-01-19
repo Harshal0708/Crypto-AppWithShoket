@@ -36,7 +36,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <meta-data
             android:name="com.google.android.gms.wallet.api.enabled"
             android:value="true" />
@@ -50,7 +49,11 @@
         </activity>
         <activity
             android:name=".modual.gpay.GpayActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".modual.card.CardActivity"
             android:exported="true">
@@ -61,7 +64,11 @@
         <activity
             android:name=".modual.payment.PaymentActivity"
             android:exported="true"
-            android:theme="@style/no_tool_bar"></activity>
+            android:theme="@style/no_tool_bar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".modual.subscription.SubscriptionDetailActivity"
             android:exported="false"
@@ -126,7 +133,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <receiver
             android:name=".Receiver.SmsBroadcastReceiver"
             android:exported="true">
@@ -134,7 +140,6 @@
                 <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
             </intent-filter>
         </receiver>
-
         <activity
             android:name=".modual.login.RegisterActivity"
             android:exported="false"
@@ -163,30 +168,33 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".modual.splash.SplashActivity"
-            android:exported="true"
-            android:theme="@style/no_tool_bar">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
 <!--        <activity-->
-<!--            android:name=".MainActivity2"-->
-<!--            android:exported="true" >-->
+<!--            android:name=".modual.splash.SplashActivity"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/no_tool_bar">-->
+<!--            <meta-data-->
+<!--                android:name="android.app.lib_name"-->
+<!--                android:value="" />-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
         <activity
+            android:name=".MainActivity2"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".chart.BarChartActivity"
             android:exported="true">

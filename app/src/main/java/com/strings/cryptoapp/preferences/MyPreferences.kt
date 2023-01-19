@@ -1,7 +1,7 @@
 package com.strings.cryptoapp.preferences
 
 import android.content.Context
-import com.strings.airqualityvisualizer.Response.DataXX
+import com.strings.cryptoapp.Response.DataXX
 import com.google.gson.Gson
 
 class MyPreferences(context: Context) {

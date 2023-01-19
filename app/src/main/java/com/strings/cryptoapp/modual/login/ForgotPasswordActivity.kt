@@ -5,12 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import com.strings.airqualityvisualizer.Constants.Companion.showToast
-import com.strings.airqualityvisualizer.R
-import com.strings.airqualityvisualizer.Response.ForgotResponse
-import com.strings.airqualityvisualizer.model.ForgotPayload
-import com.strings.airqualityvisualizer.network.RestApi
-import com.strings.airqualityvisualizer.network.ServiceBuilder
+import com.strings.cryptoapp.Constants.Companion.showToast
+import com.strings.cryptoapp.R
+import com.strings.cryptoapp.Response.ForgotResponse
+import com.strings.cryptoapp.model.ForgotPayload
+import com.strings.cryptoapp.network.RestApi
+import com.strings.cryptoapp.network.ServiceBuilder
 import retrofit2.Call
 import java.util.regex.Pattern
 

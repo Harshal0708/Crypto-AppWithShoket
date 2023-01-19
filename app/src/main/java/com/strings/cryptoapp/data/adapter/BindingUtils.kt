@@ -3,7 +3,7 @@ package com.strings.cryptoapp.data.adapter
 import android.graphics.Color
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
-import com.strings.airqualityvisualizer.domain.model.AirQualityData
+import com.strings.cryptoapp.domain.model.AirQualityData
 import kotlin.math.nextDown
 
 @BindingAdapter("cityName")
