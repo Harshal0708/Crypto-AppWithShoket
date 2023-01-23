@@ -17,9 +17,11 @@ import kotlinx.serialization.json.Json
 
 class AirQualitySocketServiceImpl(
     private val client: HttpClient
-): AirQualitySocketService {
+) : AirQualitySocketService {
 
-    private var socketSession : WebSocketSession? = null
+    private var socketSession: WebSocketSession? = null
+    lateinit var airQualityData: AirQualityData
+    lateinit var first: ArrayList<String>
 
     override suspend fun openSession(): ConnectionState {
 
@@ -27,38 +29,73 @@ class AirQualitySocketServiceImpl(
             socketSession = client.webSocketSession {
                 url(AirQualitySocketService.BASE_URL)
             }
-            if (socketSession?.isActive == true){
+            if (socketSession?.isActive == true) {
                 ConnectionState.Connected("Connection")
-            }else{
+            } else {
                 ConnectionState.CannotConnect("Connection not established")
             }
-        }catch (e: Exception){
+        } catch (e: Exception) {
             ConnectionState.Error("Unknown Error")
         }
     }
 
     override fun refreshData(): Flow<List<AirQualityData>> {
-        return try{
+//        return try {
+//            socketSession?.incoming
+//                ?.receiveAsFlow()
+//                ?.filter { it is Frame.Text }
+//                ?.map {
+//                    val json = (it as? Frame.Text)?.readText() ?: ""
+//                    //   Log.d("test"," : "+json);
+//                    val gson = Gson()
+//                    val objectList = gson.fromJson(json, Array<TopGainersItem>::class.java).asList()
+////                    val listAirQualityDataDto = Json.decodeFromString<List<TopGainersItem>>(json)
+//                    val emptyList = mutableListOf<TopGainersItem>()
+//                    objectList.map { dto ->
+////                        if (dto.s.endsWith("USDT")) {
+//////                            Log.d("test", " 1: " + dto.s);
+////                            emptyList.add(dto)
+//////                            dto.toAirQualityData()
+////                        }
+//                        dto.toAirQualityData()
+////                        val emptyList = emptyList<TopGainersItem>()
+//                    }
+////                    objectList.map { dto ->
+////                        dto.toAirQualityData()
+////                    }
+//                } ?: flow {
+//            }
+//
+//        } catch (e: Exception) {
+//            flow {}
+//        }
+
+        return try {
             socketSession?.incoming
                 ?.receiveAsFlow()
                 ?.filter { it is Frame.Text }
                 ?.map {
-                    val json  = (it as? Frame.Text)?.readText() ?: ""
-                    Log.d("test"," : "+json);
+                    val json = (it as? Frame.Text)?.readText() ?: ""
                     val gson = Gson()
                     val objectList = gson.fromJson(json, Array<TopGainersItem>::class.java).asList()
-//                    val listAirQualityDataDto = Json.decodeFromString<List<TopGainersItem>>(json)
-
-//                    objectList.
-
+                    airQualityData = AirQualityData("", 0.0)
+                    first= ArrayList()
+                    first.add("MAGICBTC")
+                    first.add("ETHBTC")
+                    first.add("MCUSDT")
                     objectList.map { dto ->
-                        dto.toAirQualityData()
+                        for ((index ,value) in first.withIndex()) {
+                            if(dto.s.equals(value)){
+                                airQualityData = dto.toAirQualityData()
+                                Log.d("test","${index} :- ${value} = ${dto.s}")
+                            }
+                        }
+                        airQualityData
                     }
-                } ?: flow{}
-        }catch(e : Exception){
-            flow{}
+                } ?: flow {}
+        } catch (e: Exception) {
+            flow {}
         }
-
     }
 
     override suspend fun closeSession() {
