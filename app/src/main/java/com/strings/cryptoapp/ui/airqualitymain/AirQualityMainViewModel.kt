@@ -48,7 +48,7 @@ class AirQualityMainViewModel @Inject constructor(
                         .onEach { airDataList ->
                             _airQualityDataList.value = airQualityDataList.value.copy(
                                 airQualityDataList = airDataList.sortedBy { it.city })
-//                            delay(2000)
+                            delay(2000)
                         }.launchIn(viewModelScope)
                 }
                 is ConnectionState.CannotConnect ->_toastEvent.emit(result.message.toString())
